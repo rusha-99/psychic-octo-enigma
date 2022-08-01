@@ -17,9 +17,9 @@ object Q3 {
   def main(args: Array[String]) {
 
     println(formatNames("Benny")(toUpper(_)));
-    println(formatNames("Niroshan")(toLower(_)));
+    println("N"+formatNames("i")(toUpper(_)) + "roshan");
     println(formatNames("Saman")(toLower(_)));
-    println(formatNames("Kumara")(toUpper(_)));
+    println("Kumar"+formatNames("a")(toUpper(_)));
 
   }
 
